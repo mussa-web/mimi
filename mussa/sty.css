@@ -1,0 +1,313 @@
+
+    *{
+        margin: o;
+        padding: 0;
+    }
+
+    .nav{
+        position: fixed;
+        
+        width: 100%;
+        height:170px;
+        display: flex;
+        z-index: 1000;
+    }
+    .navi{
+        position: relative;
+        left: 646px;
+        top:27px ;
+
+    }
+    .navi ul a{
+        cursor: pointer;
+        color: rgba(114, 85, 41, 0.849);
+        padding: 10px;
+    }
+    .navi ul a:hover{
+       border: violet;
+       background-color: blanchedalmond; 
+    }
+    #sect1{
+       background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(IMG-20240516-WA0003.jpg) ;
+       background-size: cover;
+       background-position: center;
+       height: 130vh;
+       
+    }
+    img{
+        background:transparent ;
+        width: 120px;
+        position: relative;
+        left: 37px;
+        top:27px;
+    }
+
+    .paragraph{
+        
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        top:27px;
+        background:transparent;
+        height: 600px;
+              
+    }
+    .paragraph h1 {
+        color: white;
+        cursor: pointer;
+        font-size: 42px;
+        position: relative;
+        top: 124px;
+       
+    }
+    
+    .paragraph p{
+        color: white;
+        cursor: pointer;
+        font-size:20px;
+        position: relative;
+        top: 124px;
+    }
+
+
+
+    /*-------------------about us------------------*/
+
+    #sect2{
+        background-color:whitesmoke;
+       height: 130vh;
+    }
+
+
+
+    .aboutus{
+        margin-top: 35px;
+        display: flex;
+        height: 800px;
+        align-items: center;
+    }
+    
+    .vision{
+        width: 30%;
+        text-align: center;
+        background-color: lightcoral;
+        
+        height: 300px;
+        margin-top: 10px;
+        padding-left: 15px;
+        margin-left: 10px;
+        border-radius: 20px;
+       
+       
+    }
+    .aboutus .vision p{
+        text-align: center;
+        position: relative;
+        top: 32px;
+        color:darkslateblue;
+        font-size:20px;
+        cursor: pointer;
+    }
+    .vision:hover{
+        box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+    }
+    .aboutus .vision h1{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .mission{
+        width: 30%;
+        text-align: center;
+        
+        background-color:lightcoral;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+        padding-left: 10px;
+       
+    }
+    .mission:hover{
+       
+        box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+    }
+    .aboutus .mission p{
+        color:darkslateblue;
+        font-size:20px;
+        position: relative;
+        top: 22px;
+    }
+    .aboutus .mission h1{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .motto{
+        width: 30%;
+        text-align: center;
+       
+        background-color: lightcoral;
+        height: 300px;
+        margin-top: 10px;
+        padding-left: 15px;
+        border-radius: 20px;
+        
+    }
+    .motto p{
+        color: darkslateblue;
+        font-size:20px;
+    }
+    .aboutus .motto h1{
+        color: white;
+        font-size: 30px;
+    }
+    .motto:hover{
+        box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+    }
+    .message{
+        position: relative;
+        top:-366px;
+    }
+    .message h1{
+        font-size:xx-large;
+        text-align: center;
+        cursor: pointer;
+        top: 164px;
+    }
+
+
+    /*------------------teammanagement-------------------*/
+    #sect3{
+        overflow: hidden;
+    }
+    h1{
+        font-size:xx-large;
+        text-align: center;
+        font-size: 54px;
+        cursor: pointer;
+        position: relative;
+        top: 24px;
+        color:#008;
+    }
+
+    .rec:hover{
+        transform: scale(1.1);
+    }
+
+    .team{
+        width:100%;
+        display: flex;
+        height:100vh;
+        position: relative;
+        top: 143px;
+    }
+
+    .rec{
+
+        background-image:url(IMG-20240516-WA0011.jpg) ;
+        transition: transform 0.3s ease-in-out;
+       background-size: cover;
+       border-radius: 22px;
+       background-position: center;
+        width: 30%;
+        background-color: blue;
+        height: 300px;
+        text-align: center;
+    }
+    .rector{
+        background-color: blueviolet;
+        position: relative;
+        text-align: center;
+        line-height:29px;
+        width: ;
+        height:45px ;
+        top: 276px;
+        left: 30px;
+        border-radius: 23px;
+        
+    }
+
+    .dean{
+        width: 30%;
+        background-image:url(_T6A0060.jpg) ;
+        background-size: cover;
+        background-position: center;
+        background-color: blue;
+        height: 300px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        left: 35px;
+        border-radius: 22px;
+    }
+    .dean:hover{
+        transform: scale(1.1);
+    }
+    .dn{
+        background-color: blueviolet;
+        position: relative;
+        text-align: center;
+        line-height:29px;
+        width: ;
+        height:45px ;
+        top: 276px;
+        left: 30px;
+        border-radius: 23px;
+    }
+
+    .guest{
+        width: 30%;
+        background-image:url(IMG-20240516-WA0010.jpg) ;
+        background-size: cover;
+        background-position: center;
+        background-color: blue;
+        height: 300px;
+        text-align: center;
+        position: relative;
+        left: 65px;
+        border-radius: 22px;
+    }
+        .guest:hover{
+        transform: scale(1.1);
+        }
+    .gst{
+        background-color: blueviolet;
+        position: relative;
+        text-align: center;
+        line-height:29px;
+        width: ;
+        height:45px ;
+        top: 276px;
+        left: 30px;
+        border-radius: 23px;
+    }
+    .guest img{
+        height: 250px;
+        width: auto;
+        
+    }
+
+
+    /*--------------------------footer-------------------*/
+
+    #sect4{
+        background-color: blanchedalmond;
+        height: 50vh;
+  
+    }
+    .footer{
+        display: flex;
+        
+    }
+    .contact{
+        position: relative;
+        left: 689px;
+    }
+    .quicklinks{
+        position: relative;
+        left: 32px;
+    }
+
